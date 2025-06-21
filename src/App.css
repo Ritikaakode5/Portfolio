@@ -1,0 +1,27 @@
+#home {
+  background-color: #ffffff;
+}
+
+#skills {
+  background-color: #f9fafb; /* subtle gray-blue */
+}
+
+#projects {
+  background-color: #fefefe;
+}
+
+#contact {
+  background-color: #f4f6f8; /* light cool gray */
+  padding-bottom: 60px;
+}
+/* Layout fix for footer placement */
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex: 1;
+}

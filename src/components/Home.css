@@ -1,0 +1,134 @@
+/* === Global Font Style === */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* === Hero Section === */
+.hero-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+.hero-buttons .btn {
+  font-size: 0.95rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+/* === About Section === */
+.about-section {
+  background-color: #f9fafa;
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.about-text {
+  font-size: 1rem;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.about-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #fcfcfc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.about-box:hover {
+  transform: translateY(-4px);
+}
+
+.about-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.about-list li {
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.about-list small {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* === Icon Colors === */
+.text-success {
+  color: #198754 !important;
+}
+
+/* === Responsive Styling === */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+
+  .about-box {
+    padding: 20px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-buttons .btn {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  }
+}
