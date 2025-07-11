@@ -25,7 +25,7 @@ export default function Footer() {
             <FaLinkedin className="icon" /> 
           </a>
           <a
-            href="/Ritika_Akode_Resume.pdf"
+            href="/Ritika_Resume.pdf"
             className="footer-icon"
             download
             aria-label="Download Resume"

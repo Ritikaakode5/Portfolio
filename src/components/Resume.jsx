@@ -8,7 +8,7 @@ export default function Resume() {
 
       {/* Embedded PDF viewer (requires modern browser) */}
       <iframe
-        src="/Ritika_Akode_Resume.pdf"
+        src="/Ritika_Resume.pdf"
         width="100%"
         height="600px"
         title="Resume"
@@ -17,7 +17,7 @@ export default function Resume() {
 
       {/* Download Button */}
       <div className="mt-3">
-        <Button variant="success" href="/Ritika_Akode_Resume.pdf" download>
+        <Button variant="success" href="/Ritika_Resume.pdf" download>
           Download Resume
         </Button>
       </div>

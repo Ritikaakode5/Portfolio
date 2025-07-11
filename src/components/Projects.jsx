@@ -9,21 +9,21 @@ const projects = [
     tools: ["Python", "Random Forest", "Tableau", "Matlab"],
     icon: <FaChartLine size={30} color="#2c3e50" />,
     description:
-      "Developed a machine learning pipeline to predict the commercial success of movies using the IMDB Movies dataset. Conducted in-depth data cleaning, visualization, and feature engineering to identify key attributes influencing box office performance Used MATLAB for feature selection techniques such as correlation analysis and recursive feature elimination to improve model accuracy and interpretability. Trained ensemble models including Random Forest and XGBoost in Python and compared their performance using precision, recall, and AUC scores. Visualized results in Tableau to highlight high-impact factors like cast, budget, and genre.",
+      "Predicted movie success (Hit/Flop) using 24 machine learning models in MATLAB, including SVM, Decision Trees, Neural Networks, and Naïve Bayes.Selected top 10 features using MRMR, Chi-Square, ReliefF, ANOVA, and Kruskal-Wallis techniques Conducted 27 experiments with different feature combinations; evaluated models using Accuracy, F1-Score, and Confusion Matrix Introduced CPU time as a metric and used the Ohio Supercomputer Center to identify the most efficient models (e.g., RUSBoosted Trees).",
   },
   {
     title: "Walmart Sales Forecasting",
     tools: ["R", "Time Series", "Random Forest"],
     icon: <FaShoppingCart size={30} color="#2c3e50" />,
     description:
-      "Built a time series forecasting model to predict weekly sales across Walmart stores, incorporating seasonal trends, holidays, and promotional events. Engineered features based on date, store type, and regional factors, then applied Random Forest regression in R to improve predictive performance. Evaluated the model using metrics like RMSE and MAPE, and presented findings through a dashboard identifying trends, anomalies, and high-performing outlets",
+      "Built a Random Forest model in R to forecast weekly sales, incorporating lag variables, holidays, and promotional periods. Applied time series decomposition to capture seasonality and trends in sales data.Evaluated model performance using RMSE, MAE,and R-squared for accuracy.Identified key sales drivers and provided insights to support inventory planning and marketing strategies.",
   },
   {
     title: "Uber Ride Analysis",
     tools: ["R", "Excel", "Heatmaps"],
     icon: <FaCarAlt size={30} color="#2c3e50" />,
     description:
-      "Performed geospatial and temporal analysis of Uber trip data to understand demand patterns and operational hotspots. Cleaned and transformed datasets in R and Excel, then used visualization tools to generate heatmaps, trend lines, and frequency charts.Identified peak demand zones and time windows, offering actionable insights for pricing strategies and fleet deployment.",
+      "Analyzed ride data in R and Excel to discover peak hours, high-demand zones, and customer patterns.Performed EDA and clustering to uncover insights from geospatial and time-based variables.Created heatmaps and dashboards to visualize demand and support surge pricing strategies.Provided recommendations for driver allocation and operational planning based on usage trends.",
   },
 ];
 

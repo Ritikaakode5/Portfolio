@@ -52,7 +52,7 @@ export default function Contact() {
 
               <li>
                 <FaDownload className="icon" />{" "}
-                <a href="/Ritika_Akode_Resume.pdf" download>
+                <a href="/Ritika_Resume.pdf" download>
                   Download Resume
                 </a>
               </li>

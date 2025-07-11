@@ -24,7 +24,7 @@ export default function Home() {
             </Button>
             <Button
               variant="outline-success"
-              href="/Ritika_Akode_Resume.pdf"
+              href="/Ritika_Resume.pdf"
               download
             >
               Download Resume
